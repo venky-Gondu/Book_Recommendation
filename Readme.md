@@ -41,14 +41,14 @@ This project implements a **Book Recommendation System** designed to suggest rel
 
 The repository is organized into the following main directories:
 .
-├── book-recommendations-frontend/  # React.js application for the user interface
-├── book-recommendations-backend/   # FastAPI backend with recommendation logic and API
-├── archive/                      # Contains raw datasets and supplementary files (e.g., images of analysis)
-├── .github/                      # GitHub Actions workflows (if any)
-├── .gitignore                    # Specifies intentionally untracked files
-├── Dockerfile                    # Docker configuration for containerization (for backend or full app)
-├── requirements.txt              # Python dependencies for the backend
-├── README.md                     # This file
+├── book-recommendations-frontend/   # React.js application for the user interface
+├── book-recommendations-backend/    # FastAPI backend with recommendation logic and API
+├── archive/                         # Contains raw datasets and supplementary files (e.g., images of analysis)
+├── .github/                         # GitHub Actions workflows (if any)
+├── .gitignore                       # Specifies intentionally untracked files
+├── Dockerfile                       # Docker configuration for containerization (for backend or full app)
+├── requirements.txt                 # Python dependencies for the backend
+├── README.md                        # This file
 └── ...
 
 * **`book-recommendations-frontend/`**: Houses the user-facing web application built with React.js.
